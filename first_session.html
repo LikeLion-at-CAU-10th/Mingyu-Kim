@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title은 홈페이지의 제목을 적는 란 -->
+    <title>첫 주 세션 복습용</title>
+</head>
+
+<body>
+    <div style = "display : flex;">
+        <div>
+            <h1>첫 번째 블록</h1>
+            <h1>H1 숫자가 작을 수록 크기가 커진다~</h1>
+            <h3>H3 숫자가 작을 수록 크기가 커진다~</h3>
+            <h6>H6 숫자가 작을 수록 크기가 커진다~</h6>
+            <!-- input태그는 사용자에게 입력받는 태그이며, 내용이 없으므로 닫는 태그가 필요 없다 -->
+            <input type = "text" style = "width : 300px; height : 200px; font-size : 30px">
+            <!-- div와 span모두 구역을 나누는 것. div는 해당 줄 전체, span은 내용 부분만! -->
+            <div>
+                <button style = "width:300px; height :200px;">팀 버튼</button>
+            </div>
+            <div>
+                <button style = "width:300px; height :200px;">팀 버튼2</button>
+            </div>
+        
+            <!-- p태그는 문단을 넣을 때 사용한다.(긴 텍스트) -->
+            <p>
+                <!-- html에서는 줄바꿈을 하려면 <br/>태그 이용해야한다. -->
+                <!-- strong태그 내부의 텍스트는 강조되어 표시된다.-->
+                <strong>
+                    젊은 우리 나이테는 잘 보이질 않고,<br/>
+                </strong>
+                찬란한 빛에 눈이 멀어 꺼져가는데
+        
+                <!-- a태그는 다른 사이트로 이동하는 링크를 걸어주는 태그 -->
+            <a href = "https://www.youtube.com/watch?v=WySF25tWCnY" style = "font-size : 40px;">TOMBOY</a>
+            </p>
+        </div>
+        <!-- display : flex를 이용해 가로로 구간을 나눔!-->
+        <div>
+            <h1> 두 번째 블록</h1>
+            <!-- 이미지를 불러오는 태그는 img태그 src = '주소' , alt는 이미지가 불러와지지 않았을 때 나오는 문구 -->
+            <img src = "./img/youyou.jpg" alt ="loading error">
+
+            <!-- ul과 ol태그 둘 다 리스팅을 하는 태그 -->
+            <ul style = "font-size : 30px;">
+                <li>1번</li>
+                <li>2번</li>
+                <li>3번</li>
+            </ul>    
+            
+            <!-- ol은 ul과 다르게 자동으로 숫자로 넘버링이 됨 / 사용 방법은 동일!-->
+            <ol style = "font-size : 30px;">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ol>
+
+            <!-- table 태그는 표를 만드는 태그이다-->
+            <table summary = "테이블" style = "width:150px; height : 100px;">
+                <caption>
+                    너 누구니
+                </caption>
+                <tr>
+                    <th>이름</th>
+                    <th>나이</th>
+                    <th>지역</th>
+                </tr>
+                <tr>
+                    <td>철수</td>
+                    <td>12</td>
+                    <td>경북</td>
+                </tr>
+                <tr>
+                    <td>민규</td>
+                    <td>25</td>
+                    <td>일산</td>
+                </tr>
+
+            </table>
+        </div>
+        <div>
+            <h1> 세 번째 블록</h1>
+            <!-- form태그 : 하나의 폼으로 묶어서 제출해야할 때 사용하는 태그-->
+            <form>
+                <input type = "text" style = "font-size : 25px;">
+                <input type = "email" style = "font-size : 25px;">
+                <input type = "password" style = "font-size : 25px;">
+                <input type = "date" style = "font-size : 25px;">
+                <div>
+                    <input type = "checkbox" style = "font-size : 25px;">체크박스
+                </div>
+                
+                <select name = "coffee">
+                    <option value = "1">아메리카노</option>
+                    <option value = "2">카페라떼</option>
+                    <option value = "3">카라멜마끼야또</option>
+                </select>
+                <div>
+                    <button type = "submit" style = "font-size : 25px;">제출하기</button>
+                </div>
+                
+            </form>
+        </div>
+    
+
+    </div>
+
+   
+
+
+
+    
+</body>
+</html>
