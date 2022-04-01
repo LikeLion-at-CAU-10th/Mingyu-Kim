@@ -5,3 +5,9 @@
 <img width="800" alt="hello-10th" src="https://user-images.githubusercontent.com/39653584/159526821-f5372309-ee3d-46bc-8d46-8a17ea582c56.png">
 
 </div>
+
+<div align = "center">
+ 
+  <img width = "800" alt = "Welcome~" src = "https://user-images.githubusercontent.com/81146131/161295466-48d4c729-f443-4ad4-b7be-f9c68580cbe1.jpg">
+  
+</div>
