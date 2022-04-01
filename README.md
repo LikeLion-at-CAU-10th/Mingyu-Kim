@@ -1,4 +1,8 @@
+<div align = "center">
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&duration=4500&color=F77500&width=600&lines=%F0%9F%A6%81_Welcome_Mingyu_Kim_%F0%9F%A6%81+)](https://git.io/typing-svg)
+
+</div>
 
 <div style = "display : flex;" align="center">
 
