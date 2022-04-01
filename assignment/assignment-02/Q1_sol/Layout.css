@@ -1,0 +1,73 @@
+body{
+    margin : 200px;
+}
+
+.Layout-container{
+    display : flex;
+    flex-direction: column;
+    background-color:lemonchiffon ;
+    width : 800px;
+    height : 650px;
+    justify-content : space-evenly;
+}
+
+.Title-container{
+    display : flex;
+    justify-content : space-evenly;
+    flex-basis : 13%;
+}
+
+.Title{
+    background-color : pink;
+    width : 97%;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+}
+
+.Popular-container{
+    display : flex;
+    flex-basis: 53%;
+    justify-content: space-evenly;
+}
+
+.Popular{
+    display : flex;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.Popular1{
+    flex-basis : 72%;
+}
+
+.Popular2{
+    flex-basis : 23%;
+}
+
+.Recent-container{
+    display : flex;
+    justify-content: space-evenly;
+    flex-basis : 27%;
+    align-content : center;
+}
+
+.Recent{
+    display : flex;
+    background-color:cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.Recent1{
+    flex-basis : 31%;
+}
+
+.Recent2{
+    flex-basis : 31%;
+}
+
+.Recent3{
+    flex-basis : 31%;
+}
