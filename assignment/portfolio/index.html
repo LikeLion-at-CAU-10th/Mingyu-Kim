@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <!-- css linking -->
+    <link rel="stylesheet" href="/assets/CSS/c1.css">
+    <!-- font 시작 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+        .jm-font {
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        .dokdo-font {
+            font-family : 'East Sea Dokdo', serif;
+        }
+    </style>
+    <!-- font 끝 -->
+    <!-- js for dark mode -->
+    <script defer src = "assets/JS/app.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+</head>
+
+<body>
+
+    <input type = "checkbox" class = "checkbox" id = "checkbox">
+    <!-- label은 input타입을 설명해주는 태그! -->
+    <label for = "checkbox" class = "label">
+        <!-- i 태그는 아이콘(이모티콘) 사용을 위한 태그! -->
+        <i class = "fas fa-moon"></i>
+        <i class = "fas fa-sun"></i>
+        <div class = "ball"></div>
+    </label>
+
+    <img id="title-pic" src="assets/IMG/just-do-it-gray.jpg" alt="sky">
+
+    <div class="container1">
+        <img class="meback" src="assets/IMG/me.jpg" alt="me">
+        <div class="container2">
+            <div id="name" class="jm-font"><br>Kim Min Gyu</div>
+            <div class="introduce jm-font">CAU Software</div>
+            <div class="hello jm-font">Hello World</div>
+        </div>
+    </div>
+
+    <div class="about-me-container">
+        <strong class="about-me jm-font">About me</strong>
+        <div class="about-me-photos-container photos">
+            <ul>
+                <li>
+                    <a
+                        href="https://www.youtube.com/watch?v=5f2AFS6PgEs&ab_channel=%EC%98%A8%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80ONSTAGE">
+                        <figure>
+                            <img class="photo photo1" src="assets/IMG/music.jpg" alt="music">
+                            <figcaption>음악 감상을 좋아합니다. <br>다양한 장르를 좋아하지만 <br>최근에는 밴드사운드에 매력을 느껴 <br>인디밴드 음악을 많이 듣습니다.
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bike.go.kr/content.do?key=2008068854028">
+                        <figure>
+                            <img class="photo photo2" src="assets/IMG/riding.jpg" alt="riding">
+                            <figcaption><br>자전거 타는 것을 좋아합니다. <br>바람을 헤쳐가며 페달링을 하는 것을 좋아합니다.</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure>
+                            <img class="photo photo3" src="assets/IMG/sky.jpg" alt="sky">
+                            <figcaption><br>자연 경관을 보는 것을 좋아합니다. <br>바다, 산, 선홍빛 하늘을 특히 좋아합니다. </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.goyang.go.kr/park/index.do">
+                        <figure>
+                            <img class="photo photo4" src="assets/IMG/walking.jpg" alt="walking">
+                            <figcaption><br>걷는 것을 좋아합니다. <br>7시간을 쉬지 않고 걸은 적도 있을 정도로요.</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dream dream-container">
+        <strong class="wannabe jm-font">Carpe Diem</strong>
+        <div class="inner-container">
+            <img class="dream-photos fighting" src="assets/IMG/fighting.png" alt="fighting">
+            <p class = "writing dokdo-font">
+                개발 분야뿐만 아니라 다양한 방면에서<br>
+                성숙하고 노련한 사람이 되고 싶습니다.<br>
+                다정하고 이해심이 넓은 단단한 사람이 되고 싶습니다.<br>
+                후회 속에 살지 않고, 걱정에 매몰되지 않는 <br>
+                현재에 충실한 삶을 살고 싶습니다.<br>
+            </p>
+            <img class="dream-photos coding-yellow" src="assets/IMG/yellow.png" alt="yellow">
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
