@@ -2,18 +2,22 @@ body {
     background-color: #bdbdbd;
 }
 
+.total-container{
+    width : 80%;
+    margin : 0 auto;
+}
+
 #title-pic {
     height : 300px;
-    width : 1800px;
-    margin-left : 50px;
+    width : 100%;
+    margin : 0 auto;
     border : 7px solid rgba(60, 63, 53, 0.822);
     border-radius: 12px;
 }
 
 .container1 { 
-    margin-top: 40px;
-    margin-left : 50px;
-    width : 1800px;
+    margin : 40px auto;
+    width : 100%;
     border : 5px solid rgba(60, 63, 53, 0.822);
     display : flex;
     justify-content : center;
@@ -60,11 +64,10 @@ body {
 .about-me-container {
     display:flex;
     flex-direction : column;
-    width : 1800px;
+    width : 100%;
     height : 800px;
     border : 5px solid rgba(60, 63, 53, 0.822);
-    margin-top : 100px;
-    margin-left : 50px;
+    margin : 100px auto;
     border-radius: 7px;
 }
 
@@ -133,10 +136,9 @@ body {
 
 .dream-container{
     border-radius : 7px;
-    margin-top : 100px;
-    margin-left : 50px;
+    margin : 0 auto;
     border : 5px solid rgba(60, 63, 53, 0.822);
-    width:1800px;height:500px;
+    width:100%;height:500px;
     display : flex;
     flex-direction: column;
     /* justify-content: center; */
