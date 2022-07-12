@@ -1,9 +1,9 @@
-![index_get](https://user-images.githubusercontent.com/81146131/176106596-b3b151c4-f5da-4cd1-8142-12a33b51205e.PNG)
+<h1> create_profile 
+<img width="1273" alt="create_profile" src="https://user-images.githubusercontent.com/81146131/178462354-87b572d9-479e-46c0-b414-e981fed57a82.png">
 
+<h1> get_profile
+<img width="1277" alt="get_profile" src="https://user-images.githubusercontent.com/81146131/178462361-17cd5068-287f-41ae-9ba0-cb4efe396d6d.png">
 
-![HTTP_RESPONSE](https://user-images.githubusercontent.com/81146131/176106906-562d7fd4-b820-4691-a88d-85161da08da2.PNG)
+<h1> get_profile_all
+<img width="1276" alt="get_profile_all" src="https://user-images.githubusercontent.com/81146131/178462365-5472ae68-0ba8-4afd-aca1-b582be2af41b.png">
 
-
-![JSON](https://user-images.githubusercontent.com/81146131/176106917-230b98f7-9d2e-4080-af6f-dde099046700.PNG)
-
-dd
