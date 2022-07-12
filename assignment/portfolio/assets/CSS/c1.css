@@ -1,0 +1,232 @@
+body {
+    background-color: #bdbdbd;
+}
+
+#title-pic {
+    height : 300px;
+    width : 90vw;
+    margin-left : 50px;
+    border : 7px solid rgba(60, 63, 53, 0.822);
+    border-radius: 12px;
+}
+
+.container1 { 
+    margin-top: 40px;
+    margin-left : 50px;
+    width : 90vw;
+    border : 5px solid rgba(60, 63, 53, 0.822);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-radius: 7px;
+}
+
+.container2 {
+    display : flex;
+    flex-direction : column;
+    margin-bottom:100px;
+}
+
+.meback {
+    display : flex;
+    width : 330px;
+    height : 450px;
+    margin-right : 300px;
+    margin-top : 50px;
+    border-radius : 10px;
+    margin-bottom : 50px;
+}
+
+#name {
+     font-size : 90px; 
+     color : #212121;
+     text-shadow : 4px 4px 4px gray;
+}
+
+.introduce {
+    display : flex;
+    justify-content: center;
+    font-size : 50px;
+    color : #212121;
+    text-shadow : 4px 4px 4px gray;
+}
+
+.hello {
+    font-size : 100px;
+    color : #795548;
+    text-shadow : 5px 3px 4px gray;
+}
+
+.about-me-container {
+    display:flex;
+    flex-direction : column;
+    width : 90vw;
+    height : 800px;
+    border : 5px solid rgba(60, 63, 53, 0.822);
+    margin-top : 100px;
+    margin-left : 50px;
+    border-radius: 7px;
+}
+
+.about-me {
+    display: flex;
+    font-size : 50px;
+    align-items: center;
+    justify-content: center;
+    text-shadow : 4px 4px 4px gray;
+    flex-basis : 17%;
+}
+
+.about-me-photos-container {
+    display : flex;
+    flex-basis : 70%;
+    justify-content: space-evenly;
+}
+
+.photo {
+    flex-basis : 20%;
+    width : 300px;
+    height : 550px;
+    border-radius : 15px;
+}
+
+.photos li{
+    float : left;
+    list-style: none;
+}
+
+.photos li:last-child{ margin-right: 0;}
+
+.photos a{
+    display:block;
+    width:100%; height:100%;
+
+    overflow:hidden;
+
+    position : relative;
+}
+
+.photos figure{
+    width: 15vw; height: 50%;
+}
+
+.photos figcaption{
+    width:100%; height:100%;
+    border-radius : 50px;
+    background-color: rgba(0,0,0,0.7);
+
+    position : absolute; /*이미지와 겹치게 처리*/
+    top:0; left:0;
+
+    color: #fff; text-align: center;
+    line-height: 110px;
+
+    opacity: 0; /* 처음엔 안보이게 */
+
+    transition : 0.6s;
+}
+
+.photos a:hover figcaption, .gallery a:focus figcaption{
+    /* 마우스를 올리면 보이게 처리 */
+    opacity : 1;
+}
+
+.dream-container{
+    border-radius : 7px;
+    margin-top : 100px;
+    margin-left : 50px;
+    border : 5px solid rgba(60, 63, 53, 0.822);
+    width:90vw;height:500px;
+    display : flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.wannabe {
+    margin-top: 30px;
+    display : flex;
+    justify-content: center;
+    flex-basis : 20%;
+    text-shadow : 4px 4px 4px gray;
+    font-size : 50px;
+}
+
+.dream-photos {
+    width : 300px;
+    height : 300px;
+}
+
+.inner-container{
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.writing{
+
+    display:flex;
+    text-align : center;
+    margin-top : 35px;
+    font-size : 45px;
+    text-shadow : 6px 6px 6px gray;
+}
+
+
+.label {
+    margin-left : 1800px;
+    margin-top : 20px;
+    margin-bottom : 15px;
+    display : flex;
+    align-items:center;
+    justify-content:space-evenly;
+    width : 50px;
+    height : 26px;
+    background-color: #111;
+    border-radius : 50px;
+    transform : scale(1.5);
+    /* relative 는 부모 */
+    position : relative;
+}
+
+.ball {
+    /* absolute 는 자식 */
+    position : absolute;
+    background-color: #fff;
+    border-radius : 50%;
+    width : 22px;
+    height : 22px;
+    top : 2px;
+    left : 2px;
+    transition : transform 0.2s ease-out;
+}
+
+/* 체크박스 내부의 공이 클릭되면 x축으로 24px만큼 이동한다는 뜻 */
+.checkbox:checked + .label .ball {
+    transform : translateX(24px);
+}
+
+.checkbox{
+    position : absolute;
+    opacity : 0;
+}
+
+.fa-moon {
+    color : #f1c40f;
+}
+
+.fa-sun {
+    color : #f39c12;
+}
+
+/* 다크모드가 됐을 때 배경 색 변경 */
+body.dark {
+    background : #292c35;
+}
+
+/* 글자 색 변경 */
+body.dark p {
+    color : #fff;
+}
+
+/* *{ */
+    /* box-sizing : border-box; */
+/* } */

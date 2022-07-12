@@ -1,0 +1,43 @@
+pip install Django
+pip install virtualenv
+-->> global한 download 
+
+--> 작업 할 디렉토리로 이동해서 거기서 가상환경 작동시켜서 작업하깅
+- virtualenv myvenv
+
+--> 가상환경 만들면 myvenv라는 디렉토리가 생성됨
+--> 그리구 source myvenv/Scripts/activate 명령어 실행해서 가상환경 활성화
+이거 하면 '(myvenv)' 이거 뜸
+
+--> django-admin startproject '프로젝트명'  " 저 이 프로젝트 할게요"
+--> '프로젝트명' 디렉토리 생성 + myvenv와 동일한 위치에 생성됨!
+--> django-admin startproject하면 myvenv 위치에 프로젝트명 디렉토리 생김
+--> + '프로젝트명' 디렉토리 안에 또 '프로젝트명' 디렉토리와 manage.py 생김 
+-> 근데 이거는 해당 프로젝트를 관리하는 프로그램이 담겨있ㅅ씀
+
+--> manage.py는 프로젝트의 전반적인 설정을 관리하는 곳
+--> 같은 이름의 '디렉토리'는 프로젝트의 전체 url, setting등등을 관리
+
+--> python manage.py runserver 이거 하기 전에는 manage.py가 있는지 확인! 
+--> 서버 실행(작동)
+
+--> manage.py가 있는 폴더에서 django-admin startapp '앱이름' 하면 
+--> '앱이름' 디렉토리 생성되면서 app형성에 필요한 것들이 자동으로 생김
+--> ex) django-admin startapp cau --> cau디렉토리 생기면서 내부에 이것저것 생김
+--> 앱 만들었으면 엄마폴더에서 settings.py에다가 app 추가시켜주깅
+
+--> views는 models.py(DB관련)와 urls.py(앱 내부의)를 연결시켜주는 칭구
+
+실행 느낌
+-> '나' => url입력 => urls.py(앱의)를 통해 경로로 이동 => views.py의 함수를 실행시켜줌 => models.py와 연결시켜줌(DB정보들)
+
+-> views.py는 어쨌든 함수들임! models.py는 어쨌든 '정보들이 담겨있는 곳!' 
+-> views.py의 함수들은 models.py의 내용들에 접근하거나 가공하기 위한 함수들!
+
+-> 엄마 urls는 새끼(앱)의 urls 혹은 admin(관리자)로 이동시켜줌. -> 앱의 urls는 views의 함수로 이동시켜줌 -> views의 함수들은 models의 정보들에 접근함
+
+-> python manage.py makemigrations => such as 'git add ...' : models의 데이터정보가 변경됐으니까 변경사항들을 '폴더 안에 넣음'
+-> python manage.py migrate => 동기화 시켜주는 거임. (실제로 사용)
+
+
+
